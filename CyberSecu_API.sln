@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSecu_API", "CyberSecu_API\CyberSecu_API.csproj", "{ECD771A2-36DA-4280-BF43-5B85817D78AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C0A03E0A-1C91-478E-BC9A-061956A26846}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{AA10CE42-A551-4AB3-B979-2CEBE3A030D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{ECA5F76F-3747-4106-9887-2A98DCFC8C46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{471E8A50-1387-4FEB-8E58-C60888031C9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{0070E35A-02BD-4614-AD21-1E8634028679}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CyberSecu_DB", "CyberSecu_DB\CyberSecu_DB.sqlproj", "{9BFF4340-51F8-4D3F-B198-C620F45F7FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSecu_API_Domain", "CyberSecu_API_Domain\CyberSecu_API_Domain.csproj", "{1B4A56D0-6E6E-42A4-8C28-A2A4EBA18850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECD771A2-36DA-4280-BF43-5B85817D78AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD771A2-36DA-4280-BF43-5B85817D78AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD771A2-36DA-4280-BF43-5B85817D78AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD771A2-36DA-4280-BF43-5B85817D78AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFF4340-51F8-4D3F-B198-C620F45F7FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFF4340-51F8-4D3F-B198-C620F45F7FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFF4340-51F8-4D3F-B198-C620F45F7FFB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9BFF4340-51F8-4D3F-B198-C620F45F7FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFF4340-51F8-4D3F-B198-C620F45F7FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFF4340-51F8-4D3F-B198-C620F45F7FFB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1B4A56D0-6E6E-42A4-8C28-A2A4EBA18850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4A56D0-6E6E-42A4-8C28-A2A4EBA18850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4A56D0-6E6E-42A4-8C28-A2A4EBA18850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4A56D0-6E6E-42A4-8C28-A2A4EBA18850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECD771A2-36DA-4280-BF43-5B85817D78AA} = {C0A03E0A-1C91-478E-BC9A-061956A26846}
+		{AA10CE42-A551-4AB3-B979-2CEBE3A030D3} = {C0A03E0A-1C91-478E-BC9A-061956A26846}
+		{9BFF4340-51F8-4D3F-B198-C620F45F7FFB} = {0070E35A-02BD-4614-AD21-1E8634028679}
+		{1B4A56D0-6E6E-42A4-8C28-A2A4EBA18850} = {AA10CE42-A551-4AB3-B979-2CEBE3A030D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40482B43-9974-4ED1-8403-855713E267F5}
+	EndGlobalSection
+EndGlobal
