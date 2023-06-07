@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{00
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CyberSecu_DB", "CyberSecu_DB\CyberSecu_DB.sqlproj", "{9BFF4340-51F8-4D3F-B198-C620F45F7FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSecu_API_Domain", "CyberSecu_API_Domain\CyberSecu_API_Domain.csproj", "{1B4A56D0-6E6E-42A4-8C28-A2A4EBA18850}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyberSecu_API_Domain", "CyberSecu_API_Domain\CyberSecu_API_Domain.csproj", "{1B4A56D0-6E6E-42A4-8C28-A2A4EBA18850}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

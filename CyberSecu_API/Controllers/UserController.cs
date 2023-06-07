@@ -25,7 +25,7 @@ namespace CyberSecu_API.Controllers
         {
             try
             {
-                _authRepository.Handle(new RegisterCommand(dto.FirstName, dto.LastName, dto.FirstName, dto.LastName));
+                _authRepository.Handle(new RegisterCommand(dto.Email,  dto.FirstName, dto.LastName, dto.Passwd));
                 return Ok();
             }
             catch (Exception ex)

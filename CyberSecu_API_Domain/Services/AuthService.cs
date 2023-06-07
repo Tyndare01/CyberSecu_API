@@ -83,7 +83,7 @@ namespace CyberSecu_API_Domain.Services
                     {
                         while (reader.Read())
                         {
-                            int id = (int)reader["id"];
+                            int id = (int)reader["UserID"];
                             string firstName = (string)reader["firstname"];
                             string lastName = (string)reader["lastname"];
                             string email = (string)reader["email"];

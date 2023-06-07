@@ -8,7 +8,7 @@ namespace CyberSecu_API_Domain.Entities
 {
     public class User
     {
-        public User(string firstName, string lastName, string email, string? password = null)
+        public User(string firstName, string lastName, string email, string password = null)
         {
             FirstName = firstName;
             LastName = lastName ;
